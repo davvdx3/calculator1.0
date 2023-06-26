@@ -36,15 +36,11 @@ calculator.addEventListener('click', (e) => {
 
         if (calculator.dataset.operatorPressed) {
             calculator.dataset.firstValue = initialValue;
-            console.log(initialValue);
             calculator.dataset.operatorPressed = operator
-            console.log(calculator.dataset.operatorPressed);
-            console.log(calculator.dataset.firstValue);
         }
 
         calculator.dataset.firstValue = displayedValue;
         initialValue = calculator.dataset.firstValue;
-        console.log(initialValue);
         calculator.dataset.operatorPressed = operator;
 
 
